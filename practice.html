@@ -6,14 +6,14 @@
 </head>
 <body>
     <script>
-        function a() {
-            return ['dong', 'min'];
+        function get_members () {
+            return['dong', 'min', 'jang'];
         }
 
-        b=a();
+        members=get_members ();
 
-        for(var i = 0; i < b.length; i++) {
-            document.write(b[i]+"<br />");
+        for(var i = 0; i < members.length; i++){
+            document.write(members[i].toUpperCase()+"<br />");
         }
     </script>
 </body>
